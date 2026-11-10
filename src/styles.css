@@ -510,3 +510,33 @@ ul { margin: 0; padding: 0; list-style: none; }
   .reveal { opacity: 1; transform: none; }
   .tilt { transform: none; }
 }
+
+/* ---------- WhatsApp floating button ---------- */
+.whatsapp-btn {
+  position: fixed; right: 22px; bottom: 22px; z-index: 45;
+  display: grid; place-items: center;
+  width: 58px; height: 58px; border-radius: 50%;
+  background: #25d366; color: #fff;
+  box-shadow: 0 14px 28px -10px rgba(37, 211, 102, 0.7);
+  transition: transform .3s var(--ease), box-shadow .3s;
+}
+.whatsapp-btn::before {
+  content: ''; position: absolute; inset: 0; border-radius: 50%;
+  background: #25d366; z-index: -1;
+  animation: wa-pulse 2.4s ease-out infinite;
+}
+.whatsapp-btn:hover {
+  transform: translateY(-3px) scale(1.06);
+  box-shadow: 0 18px 32px -10px rgba(37, 211, 102, 0.85);
+}
+.back-to-top { bottom: 92px; }
+
+@keyframes wa-pulse {
+  0% { transform: scale(1); opacity: .5; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+
+@media (max-width: 560px) {
+  .whatsapp-btn { right: 16px; bottom: 16px; width: 54px; height: 54px; }
+  .back-to-top { right: 20px; bottom: 82px; }
+}

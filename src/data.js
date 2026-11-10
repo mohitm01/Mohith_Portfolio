@@ -6,7 +6,6 @@ export const profile = {
   location: 'Bengaluru, Karnataka, India',
   linkedin: 'https://www.linkedin.com/in/mohith-m-',
   instagram: 'https://www.instagram.com/mohithdigital',
-  forehead: 'https://www.instagram.com/foreheadpro/',
   portfolio: 'https://portfolio.mohithm.com',
 }
 

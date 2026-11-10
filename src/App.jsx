@@ -7,6 +7,7 @@ import Education from './sections/Education.jsx'
 import Contact from './sections/Contact.jsx'
 import Footer from './sections/Footer.jsx'
 import Icon from './components/Icons.jsx'
+import WhatsAppButton from './components/WhatsAppButton.jsx'
 import { useEffect, useState } from 'react'
 
 export default function App() {
@@ -31,6 +32,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <WhatsAppButton />
       <a
         href="#home"
         className={`back-to-top ${showTop ? 'visible' : ''}`}

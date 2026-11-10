@@ -53,7 +53,6 @@ export default function Contact() {
             <div className="contact-socials">
               <a href={profile.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a>
               <a href={profile.instagram} target="_blank" rel="noopener noreferrer">Instagram</a>
-              <a href={profile.forehead} target="_blank" rel="noopener noreferrer">Forehead Pro</a>
             </div>
           </div>
 
