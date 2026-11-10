@@ -18,7 +18,7 @@ export const roles = [
 export const navLinks = [
   { href: '#home', label: 'Home' },
   { href: '#about', label: 'About' },
-  { href: '#skills', label: 'Skills' },
+  { href: '#skills', label: 'Services' },
   { href: '#work', label: 'Work' },
   { href: '#education', label: 'Education' },
   { href: '#contact', label: 'Contact' },

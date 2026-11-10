@@ -8,7 +8,7 @@ export default function Skills() {
     <section className="section section-tint" id="skills">
       <div className="container">
         <Reveal className="section-heading">
-          <h2>Skills &amp; toolkit</h2>
+          <h2>Services &amp; Skills</h2>
           <p className="section-intro">
             What I can take on for your brand, built through training and
             practical project work.
